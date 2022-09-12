@@ -9,7 +9,7 @@ function App() {
   return (
       <BrowserRouter>
         <Routes>
-            <Route path="booking-test-react.herokuapp.com" element={<MainNav />} />
+            <Route path="//booking-test-react.herokuapp.com" element={<MainNav />} />
             <Route path="/all-bookings" element={<AllBookings />} />
             <Route path="/new-booking" element={<NewBooking />} />
             <Route path="/favorites" element={<Favorites />} />
