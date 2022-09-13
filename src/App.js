@@ -9,7 +9,7 @@ function App() {
   return (
       <div>
       <MainNav/>
-          <h1>Ce faci?</h1>
+          <h1>Gheboasa</h1>
       </div>)
 
 }
