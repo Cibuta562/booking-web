@@ -13,10 +13,10 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     <React.StrictMode>
     <HashRouter>
         <Routes>
-            <Route path="/" element={<MainNav />} />
-            <Route path="/all-bookings" element={<AllBookings />} />
-            <Route path="/new-booking" element={<NewBooking />} />
-            <Route path="/favorites" element={<Favorites />} />
+            <Route path="/booking-web" element={<MainNav />} />
+            <Route path="/booking-web/all-bookings" element={<AllBookings />} />
+            <Route path="/booking-web/new-booking" element={<NewBooking />} />
+            <Route path="/booking-web/favorites" element={<Favorites />} />
         </Routes>
     </HashRouter>
     </React.StrictMode>);
