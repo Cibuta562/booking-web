@@ -7,15 +7,11 @@ import './App.css';
 
 function App() {
   return (
-      <BrowserRouter>
-        <Routes>
-            <Route path="/" element={<MainNav />} />
-            <Route path="/all-bookings" element={<AllBookings />} />
-            <Route path="/new-booking" element={<NewBooking />} />
-            <Route path="/favorites" element={<Favorites />} />
-        </Routes>
-      </BrowserRouter>
-  );
+      <div>
+      <MainNav/>
+      <h1>This is a MAUS website</h1>
+      </div>)
+
 }
 
 export default App;
