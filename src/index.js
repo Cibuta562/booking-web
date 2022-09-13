@@ -9,17 +9,18 @@ import NewBooking from "./pages/NewBooking";
 import Favorites from "./pages/Favorites";
 
 
-ReactDOM.createRoot(document.getElementById('root')).render(
+ReactDOM.render(
     <React.StrictMode>
     <HashRouter>
         <Routes>
-            <Route path="/booking-web/" element={<MainNav />} />
-            <Route path="/booking-web/all-bookings" element={<AllBookings />} />
-            <Route path="/booking-web/new-booking" element={<NewBooking />} />
-            <Route path="/booking-web/favorites" element={<Favorites />} />
+            <Route path="/" element={<MainNav />} />
+            <Route path="/all-bookings" element={<AllBookings />} />
+            <Route path="/new-booking" element={<NewBooking />} />
+            <Route path="/favorites" element={<Favorites />} />
         </Routes>
     </HashRouter>
-    </React.StrictMode>);
+    </React.StrictMode>,
+    document.getElementById('root'));
 
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))
